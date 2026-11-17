@@ -162,9 +162,10 @@ There is an [open source VoLTE service] developed by phh, but it's incomplete an
 All Galaxy Watches that run Wear OS (Galaxy Watch4 or newer) got a rollback prevention update in March 2026. This prevents you from downgrading to older software. There's no way to revert this change right now. So if you want to downgrade, DO NOT UPDATE.
 
 ### Bootloader Unlock
-Unlike other Samsung devices, One UI 8 Watch brought a proper OEM Unlock and bootloader unlock. However, the device does not seem to work correctly(bootloop) after flashing custom binaries.
+Unlike other Samsung devices, One UI 8 Watch brought a proper OEM Unlock toggle. However, the device does not seem to work correctly (bootloop) after flashing custom binaries.
 Also, **LTE models have the risk of HARD BRICKING THE DEVICE.**
 There's no EDL mode or EUB mode to fix this. You have to replace the motherboard or find a way to fix it.
+The non-functional OEM Unlock toggle was removed after One UI 9 Watch in Galaxy Watch8. ``L320XXU2BZJ7``
 
 
 ***
